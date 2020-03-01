@@ -1,0 +1,76 @@
+body {
+  text-align: center;
+}
+
+.hero {
+  background: url("Resources/images/hero.jpg")center center;
+  min-height: 600px;
+  width: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+.site-title {
+  font-family: Helvetica;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+  padding-top: 220px;
+}
+
+.hero {
+  padding-top: 60px;
+}
+
+.description {
+  font-family: Helvetica;
+  font-size: 23px;
+}
+.section-head {
+  padding-bottom: 20px;
+  padding-top: 30px;
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.card-title {
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+}
+.card-text {
+  font-family: Helvetica;
+  font-size: 16px;
+}
+
+.card-deck {
+  display: flex;
+}
+
+.about img {
+  width: 75px;
+  height: 75px;
+}
+
+.learn img {
+  width: 288px;
+  height: auto;
+}
+
+
+.card-title {
+  padding: 20px;
+}
+
+.site {
+  border-bottom: thin solid lightgrey;
+}
+
+.about-us {
+  min-height: 250px;
+}
+
+footer{
+  background-color: lightgrey;
+  min-height: 150px;
+}
