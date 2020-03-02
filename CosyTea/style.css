@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  justify-content: space-around;
+  background-color: #1F2421;
+  color: #FAD2C4;
+  font-family: Helvetica;
+  font-size: 22px;
+}
+
+header {
+  position: fixed;
+  background-color: #1F2421;
+  height: 69px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 1px solid #FCE6DE;
+  width: 100%;
+}
+
+nav {
+  margin: 0px 20px 0px 0px;
+}
+
+a {
+  color: #CE965F;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+.logo {
+  height: 50px;
+  margin-right:auto;
+  padding-left: 20px;
+}
+
+.master {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 70px;
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+  
+}
+
+.hero {
+  display: flex;
+  background-image: url("Resources/mission-background.jpg");
+  height: 700px;
+  align-items: center;
+}
+
+.mission {
+  display: flex;
+  background-color: #1F2421;
+  display: block;
+  width: 1200px;
+}
+
+.products {
+  display: block;
+  width: 1000px;
+  padding: 60px;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  min-height: 320px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.blitz {
+  display: flex;
+  height: 200px;
+  width: 300px;
+}
+
+.rum {
+  display: flex;
+  height: 200px;
+  width: 300px;
+}
+
+.donut {
+  display: flex;
+  height: 200px;
+  width: 300px;
+}
+
+.myrtle {
+  display: flex;
+  height: 200px;
+  width: 300px;
+}
+
+.bizzare {
+  display: flex;
+  height: 200px;
+  width: 300px;
+}
+
+.monthly {
+  display: flex;
+}
+
+.group {
+  margin: 20px;
+  padding-top: 40px;
+}
+
+.geography {
+  display: block;
+  background-image: url("Resources/locations-background.jpg");
+  height: 600px;
+  width: 1200px;
+}
+
+.all-sites {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sites {
+  background-color: #1F2421;
+  width: 300px;
+}
+
+footer {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  text-align: center;
+}
+
+.details {
+  display: inline-block;
+}
